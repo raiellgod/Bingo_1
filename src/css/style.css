@@ -80,75 +80,73 @@ main {
   background-color: var(--creme);
 }
 
-
-.linhaBolinha{
-    display: flex;
+.linhaBolinha {
+  display: flex;
 }
 
-.bolinha{
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bolinha {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.containerBolinha{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.containerBolinha {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .sorteioBola {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
 }
 
-.bolaSorteada{
-    font-size: var(--tamanho-7dot0);
+.bolaSorteada {
+  font-size: var(--tamanho-7dot0);
 }
 
-.painelSorteio{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.painelSorteio {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .repeticao {
-    display: flex
+  display: flex;
 }
 
-.bolota{
-    display: none;
+.bolota {
+  display: none;
 }
 
-.quadrado.bolota{
-            border: none;
-            background-color: transparent;
-        }
+.quadrado.bolota {
+  border: none;
+  background-color: transparent;
+}
 
-        .quadrado{
-            width: 50px;
-            height: 50px;
-        }
+.quadrado {
+  width: 50px;
+  height: 50px;
+}
 
-        .bolinha{
-            width: 45px;
-            height: 45px;
+.bolinha {
+  width: 45px;
+  height: 45px;
 
-            font-size: 30px;
-        }
+  font-size: 30px;
+}
 
-footer{
-
-    background-color: var(--cor-principal);
+footer {
+  background-color: var(--cor-principal);
 }
 
 footer img {
-    height: 9.9vh;
+  height: 9.9vh;
 }
