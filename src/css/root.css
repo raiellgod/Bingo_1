@@ -1,0 +1,253 @@
+:root {
+  /* cores */
+
+  --cor-principal: var(--preto);
+
+  --cor-secundaria: var(--vermelho2);
+
+  --cor-terciaria: var(--prata-fantasma);
+
+  --font-color-principal: var(--preto);
+
+  --font-color-secundaria: var(--branco);
+
+  --font-color-terciaria: var(--violeta);
+
+  --branco: #fff;
+
+  --preto: #000;
+
+  --pretinho: #121212;
+
+  --preto-cinza: #252525;
+
+  --vermelho2: #fe1b22;
+
+  --vermelho: #d0312d;
+
+  --vermelho-sangue: #710c04;
+
+  --tomate: #df4611;
+
+  --blush: #bc544b;
+
+  --rosas: #e3242b;
+
+  --verde-musgo-escuro: #162938;
+
+  --transparente: transparent;
+
+  --branco-inverno: #f0f0e8;
+
+  --branco-gelo: #f3f2ed;
+
+  --celeste: #b1ffff;
+
+  --azul-bebe: #87d2ef;
+
+  --azul: #0101ff;
+
+  --azul-royal: #3a6ae2;
+
+  --verde-oliva: #7f7f00;
+
+  --verde-musgo: #666634;
+
+  --menta: #99fd99;
+
+  --turquesa: #ceffcc;
+
+  --folha: #395210;
+
+  --laranja: #f36920;
+
+  --laranja-fogo: #ee6224;
+
+  --laranja-goku: #e7602c;
+
+  --azul-goku: #193c6b;
+
+  --branco-prateado: #999cab;
+
+  --laranja-royal: #f4802b;
+
+  --laranja-abobora: #f47524;
+
+  --terracota: #e2725b;
+
+  --ouro: #d4af37;
+
+  --rose-gold: #b76e79;
+
+  --ouro-velho: #cfb53b;
+
+  --prata: #c0c0c0;
+
+  --prata-fantasma: #f8f8ff;
+
+  --branco-fumaca: #f5f5f5;
+
+  --platinum: #e5e4e2;
+
+  --prateado: #e7e7e7;
+
+  --roxo: #a32cc4;
+
+  --violeta: #710193;
+
+  --lavanda: #e39ff6;
+
+  --lilas: #b65fcf;
+
+  --berinjela: #311432;
+
+  --verde: #3cb043;
+
+  --sunshine: #fffd37;
+
+  --amarelo-claro: #ffffe0;
+
+  --creme: #ffffcc;
+
+  --verde-neon: #cfff04;
+
+  --booblebee: #fce205;
+
+  --azul-logo: #9fe4f4;
+
+  --roxo-claro: #c9b5d8;
+
+  --rosa-claro: #f6cad0;
+
+  --azul-clarinho: #c4dffb;
+
+  --azul-bebe: #acd1fb;
+
+  --azul-policia: #43597d;
+
+  --azul-policia-claro: #a0c0d6;
+
+  --laranja-salmao: #de7456;
+
+  --preto-desbotado: #2b3240;
+
+  --roxo-pastel: #9082f7;
+
+  --nuvem: #f8f7fe;
+
+  --creminho: #fcefdf;
+
+  --pele-bronzeada: #f9d9c1;
+
+  --mostarda: #f5c144;
+
+  --por-do-sol: #e8622c;
+
+  --rosa-barbie: #ea336f;
+
+  --roxo-uva: #7a3ce3;
+
+  /* /cores */
+
+  /* fontes */
+
+  --font-principal: var(--font-dot-gothic);
+
+  --font-secundaria: var(--font-pirata);
+
+  --font-amatic: "Amatic SC", sans-serif;
+
+  --font-caveat: "Caveat", cursive;
+
+  --font-chakra: "Chakra Petch", sans-serif;
+
+  --font-dot-gothic: "DotGothic16", sans-serif;
+
+  --font-great-vibes: "Great Vibes", cursive;
+
+  --font-jacquard: "Jacquard 24", system-ui;
+
+  --font-kalnia: "Kalnia", serif;
+
+  --font-montserrat: "Montserrat", sans-serif;
+
+  --font-opens_sans: "Open Sans", sans-serif;
+
+  --font-pacifico: "Pacifico", cursive;
+
+  --font-padrao: Arial, verdana, helvetica, sans-serif;
+
+  --font-pirata: "Pirata One", system-ui;
+
+  --font-poppins: "Poppins", sans-serif;
+
+  --font-roboto: "Roboto", sans-serif;
+
+  --font-sevillana: "Sevillana", cursive;
+
+  /* /fontes */
+
+  /* tamanhos de fonte */
+
+  --tamanho-10dot0: 10rem;
+  --tamanho-9dot5: 9.5rem;
+  --tamanho-9dot0: 9rem;
+  --tamanho-8dot5: 8.5rem;
+  --tamanho-8dot0: 8rem;
+  --tamanho-7dot5: 7.5rem;
+  --tamanho-7dot0: 7rem;
+  --tamanho-6dot5: 6.5rem;
+  --tamanho-6dot0: 6rem;
+  --tamanho-5dot5: 5.5rem;
+  --tamanho-5dot0: 5rem;
+  --tamanho-4dot5: 4.5rem;
+  --tamanho-4dot0: 4rem;
+  --tamanho-3dot5: 3.5rem;
+  --tamanho-3dot0: 3rem;
+  --tamanho-2dot5: 2.5rem;
+  --tamanho-2dot0: 2rem;
+  --tamanho-1dot9: 1.9rem;
+  --tamanho-1dot8: 1.8rem;
+  --tamanho-1dot7: 1.7rem;
+  --tamanho-1dot6: 1.6rem;
+  --tamanho-1dot5: 1.5rem;
+  --tamanho-1dot4: 1.4rem;
+  --tamanho-1dot3: 1.3rem;
+  --tamanho-1dot2: 1.2rem;
+  --tamanho-1dot1: 1.1rem;
+  --tamanho-1dot0: 1rem;
+  --tamanho-0dot9: 0.9rem;
+  --tamanho-0dot8: 0.8rem;
+  --tamanho-0dot7: 0.7rem;
+  --tamanho-0dot6: 0.6rem;
+  --tamanho-0dot5: 0.5rem;
+  --tamanho-0dot4: 0.4rem;
+  --tamanho-0dot3: 0.3rem;
+  --tamanho-0dot2: 0.2rem;
+  --tamanho-0dot1: 0.1rem;
+  /* 1 rem = 16 px */
+
+  /* /tamanhos de fonte */
+
+  /* peso da fonte */
+
+  --thin: 100;
+
+  --extra-thin: 200;
+
+  --light: 300;
+
+  --regular: 400;
+
+  --medium: 500;
+
+  --semibold: 600;
+
+  --bold: 700;
+
+  --extra-bold: 800;
+
+  --black: 900;
+
+  /* /peso da fonte */
+}
